@@ -1,5 +1,11 @@
 # replace-string
 
+## Install
+
+```shell
+pnpm install @lexmin0412/replace-string
+```
+
 ## Usage
 
 ```js
