@@ -1,6 +1,6 @@
 {
   "name": "@lexmin0412/replace-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
