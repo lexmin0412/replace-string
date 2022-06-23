@@ -5,7 +5,8 @@ import { readFileSync, writeFileSync } from 'fs'
  */
 export function replaceFileContent(filePath: string, oldStr: string, newStr: string) {
 	const content = readFileSync(filePath, 'utf8')
-	const newContent = replaceString(content, oldStr, newStr)
+	const reg = new RegExp(oldStr, 'g')
+	const newContent = content.replace(reg, newStr)
 	writeFileSync(filePath, newContent)
 }
 
